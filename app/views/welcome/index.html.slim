@@ -1,2 +1,3 @@
-h2 = "Welcome #{User.last.name}" 
+/ h2 = "Welcome #{User.last.name}" 
 p = "The time is now: #{Time.now}"
+= link_to "Sign out", destroy_user_session_path, :method => :delete
