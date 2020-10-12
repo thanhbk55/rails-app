@@ -169,6 +169,16 @@ development:
     # (default: false)
     # use_utc: false
 
+production:
+  clients:
+    default:
+      database: bibbdgl6jerkqlu
+      hosts:
+        - bibbdgl6jerkqlu-mongodb.services.clever-cloud.com:27017
+      options:
+        user: uri0lh8bozwmlvwh5pbz
+        password: zxnN3slU8a3LTYMoy5nC
+
 test:
   clients:
     default:
