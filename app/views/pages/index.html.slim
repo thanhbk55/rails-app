@@ -3,5 +3,6 @@ p = "The time is now: #{Time.now}"
 = link_to "Sign out", destroy_user_session_path, :method => :delete
 
 - @pages.each do |page|
-  a href="#"
-    h3 = page.name
+  .page-item
+    h3 style="display: inline-block;" = page.name
+    = link_to "編集へ", "https://cms-refactor-nextjs-app.herokuapp.com/pages/#{page.name}"
